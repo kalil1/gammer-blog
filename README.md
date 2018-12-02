@@ -1,23 +1,27 @@
-# README
+# GammerBlog -Beginner To Pro Tutorial...
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Progression
 
-Things you may want to cover:
+![GammerBlog](https://github.com/cndragn/fotoscape/blob/master/app/assets/images/fotoscape.png)
+![GammerBlog](https://github.com/cndragn/fotoscape/blob/master/app/assets/images/fotoscape.png)
+
 
 * Ruby version
 
 * System dependencies
+
+* Intro to rails
+  -MVC
+  -Rails Router
+
+* Intro to Ruby Gems
+  -Devise
 
 * Configuration
 
 * Database creation
 
 * Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 

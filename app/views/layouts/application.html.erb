@@ -8,12 +8,21 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
     <ul>
-      <li> <%=  link_to "home", root_path %> </li>
+      <li> <%=  link_to "home", root_path, class: "active" %> </li>
       <li> <%=  link_to "about", about_path %> </li>
+      <% if !gammer_signed_in? %>
+      <li> <%=  link_to "Sign Up", new_gammer_registration_path %> </li>
+      <li> <%=  link_to "Sign In", new_gammer_session_path %> </li>
+      <% else %>
+      <li> <%=  link_to "Sign Out", destroy_gammer_session_path, method: :delete %> </li>
+      <% end %>
     </ul>
+
+       <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
     <%= yield %>
   </body>
 </html>
