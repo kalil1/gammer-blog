@@ -2,8 +2,8 @@
 
 ## Project Progression
 
-![GammerBlog](https://github.com/cndragn/fotoscape/blob/master/app/assets/images/fotoscape.png)
-![GammerBlog](https://github.com/cndragn/fotoscape/blob/master/app/assets/images/fotoscape.png)
+![GammerBlog](https://github.com/kalil1/gammer-blog/blob/master/app/assets/images/GB.png)
+![GammerBlog](https://github.com/kalil1/gammer-blog/blob/master/app/assets/images/GB-Progression%231.png)
 
 
 * Ruby version
