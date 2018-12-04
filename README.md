@@ -4,6 +4,7 @@
 
 ![GammerBlog](https://github.com/kalil1/gammer-blog/blob/master/app/assets/images/GB.png)
 ![GammerBlog](https://github.com/kalil1/gammer-blog/blob/master/app/assets/images/GB-Progression%231.png)
+![GammerBlog](https://github.com/kalil1/gammer-blog/blob/master/app/assets/images/Create.png)
 
 
 * Ruby version

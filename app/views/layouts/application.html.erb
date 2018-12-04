@@ -10,14 +10,15 @@
   </head>
   <body>
     <ul>
-      <li> <%=  link_to "home", root_path, class: "active" %> </li>
-      <li> <%=  link_to "about", about_path %> </li>
+      <li> <%=  link_to "Home", root_path, class: "active" %> </li>
+      <li> <%=  link_to "About", about_path %> </li>
       <% if !gammer_signed_in? %>
       <li> <%=  link_to "Sign Up", new_gammer_registration_path %> </li>
       <li> <%=  link_to "Sign In", new_gammer_session_path %> </li>
       <% else %>
       <li> <%=  link_to "Sign Out", destroy_gammer_session_path, method: :delete %> </li>
       <% end %>
+      <li> <%=  link_to "New Post", new_post_path, class: "active" %> </li>
     </ul>
 
        <p class="notice"><%= notice %></p>
