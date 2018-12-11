@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require font_awesome
+ *= require bootstrap
  */
  ul {
      list-style-type: none;
